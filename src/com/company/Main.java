@@ -12,6 +12,8 @@ public class Main {
         System.out.println("Printed pages " + printer.getNumberOfPagesPrinted());
         int pagess = printer.printedPages(100);
         System.out.println("Pages printed was= " + pagess + " and total is= " + printer.getNumberOfPagesPrinted());
+        pagess = printer.printedPages(77);
+        System.out.println("Pages printed was= " + pagess + " and total is= " + printer.getNumberOfPagesPrinted());
 
 
 

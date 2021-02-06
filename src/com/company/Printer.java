@@ -18,7 +18,9 @@ public class Printer {
     }
 
     public int printedPages(int pages) {
-        return (this.numberOfPagesPrinted =+ pages);
+        int addedPages = pages;
+        this.numberOfPagesPrinted += pages;
+        return (addedPages);
 
     }
 
